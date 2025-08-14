@@ -1,0 +1,94 @@
+body{
+	background: #3d211a;	
+	font-family: "Playfair Display", serif;	
+	color: #f5f5dc;
+}
+
+#principal {
+	width: 1080px;	
+}
+
+#menu {
+	background: #efebce;
+	padding: 18px;
+	align-items: center;
+	border-radius: 5px;	
+}
+
+#conteudo {
+	background: #efebce;
+	padding: 8px;
+}
+
+a {
+	color: #3d211a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+a:hover {
+	color: #A34743;
+}
+
+.centralizar{
+	text-align: center;
+}
+
+.container {	
+    background-color: #efebce;
+    padding: 20px;
+    border-radius: 8px; 
+    max-width: 950px;
+    border: 2px solid #8B7D70;	
+	margin-top: 10%;
+	margin-left: 17%;
+	text-align: center;
+}
+
+.ladodireito{
+	text-align: right;
+}
+
+.tema{
+	display: flex;
+  	justify-content: center;	
+  	align-items: center;
+	font-size: 3em;
+}
+
+.esquerda{
+	display: flex;
+  	justify-content: left;	
+  	align-items: center;
+	font-size: 3em;
+}
+
+h2 {
+	color: #a07856;
+}
+
+h3 {
+	font-size: 2.5em;
+	color: #3d211a;
+}
+
+.mudarcor {
+	font-size: 1.5em;
+	color: #3d211a;
+}
+
+.botao {	
+	background-color: #A34743;
+	color: #efebce;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-top: 6px;
+}
+
+input[type="text"], textarea {
+	width: 20%;
+	border-radius: 5px;	
+}
+
+
