@@ -2,22 +2,14 @@ body{
 	background: #3d211a;	
 	font-family: "Playfair Display", serif;	
 	color: #f5f5dc;
-}
-
-#principal {
-	width: 1080px;	
+	margin: 0;
 }
 
 #menu {
 	background: #efebce;
 	padding: 18px;
-	align-items: center;
+	/*align-items: center;*/
 	border-radius: 5px;	
-}
-
-#conteudo {
-	background: #efebce;
-	padding: 8px;
 }
 
 a {
@@ -31,20 +23,17 @@ a:hover {
 	color: #A34743;
 }
 
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;	
+}
 .centralizar{
 	text-align: center;
+
 }
 
-.container {	
-    background-color: #efebce;
-    padding: 20px;
-    border-radius: 8px; 
-    max-width: 950px;
-    border: 2px solid #8B7D70;	
-	margin-top: 10%;
-	margin-left: 17%;
-	text-align: center;
-}
 
 .ladodireito{
 	text-align: right;
@@ -74,8 +63,13 @@ h3 {
 }
 
 .mudarcor {
-	font-size: 1.5em;
-	color: #3d211a;
+	margin: 10px;
+	background-color: #efebce;
+	color: #3d211a;	
+	padding: 0 10px;
+	border-radius: 5px;	
+	text-align: center;
+	
 }
 
 .botao {	
